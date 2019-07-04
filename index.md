@@ -2,14 +2,6 @@
   <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap" rel="stylesheet" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141839667-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-141839667-4');
   </head>
 
 <style>
@@ -20,12 +12,12 @@
   width: 100%;
   height: 100%;
   }
-  
+
  html {
   font-family: 'Poppins', sans-serif;
   background-image: linear-gradient(120deg, #9457e0, #f44bca);
   }
- 
+
 .site-footer {
    visibility: hidden;
    max-height: 0px;
@@ -83,7 +75,7 @@ text {
   color: white;
   font-size: 18px;
   }
-  
+
 .join {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -106,7 +98,7 @@ text {
 <body>
 <center><img src="logo.png" alt="Logo" /></center>
 
-<center><button class="join" onclick="window.location.href='https://www.mb102.com/lnk.asp?o=8288&c=918277&a=377858&k=4990979B8A28EB15D7AFD2B9C99636E4&l=7000'"> Join </button>
+<center><button class="join" onclick="window.location.href='https://www.mb102.com/lnk.asp?o=12088&c=918277&a=377858&k=791E65D0D0DC26543A895BB2781F8F00&l=12366'"> Join </button>
 
 <br/>
 
