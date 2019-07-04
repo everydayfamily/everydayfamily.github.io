@@ -1,5 +1,20 @@
 <html lang="en-US">
   <head>
+    
+    
+    <!-- TRACKING STUFF FOR EVERYDAYFAMILY.GITHUB.IO -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141839667-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141839667-5');
+</script>
+    <!-- TRACKING STUFF FOR EVERYDAYFAMILY.GITHUB.IO -->
+    
+    
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap" rel="stylesheet" />
   </head>
