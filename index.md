@@ -1,37 +1,120 @@
-## Welcome to GitHub Pages
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap" rel="stylesheet" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141839667-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-You can use the [editor on GitHub](https://github.com/everydayfamily/everydayfamily.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+  gtag('config', 'UA-141839667-4');
+  </head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<style>
+ body {
+  background-image: url("baby.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  }
+  
+ html {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(120deg, #9457e0, #f44bca);
+  }
+ 
+.site-footer {
+   visibility: hidden;
+   max-height: 0px;
+ }
 
-### Markdown
+.page-header {
+    color: #fffff;
+    text-align: center;
+    background-color: #7f797d;
+    background-image: linear-gradient(120deg, #9457e0, #f44bca);
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+@media screen and (min-width: 64em) {
+    .page-header {
+        padding: 2rem 6rem
+    }
+}
 
-```markdown
-Syntax highlighted code block
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .page-header {
+        padding: 1rem 4rem
+    }
+}
 
-# Header 1
-## Header 2
-### Header 3
+@media screen and (max-width: 42em) {
+    .page-header {
+        padding: 0.01rem 1rem
+    }
+}
 
-- Bulleted
-- List
+.project-name {
+    margin-top: 1rem;
+    margin-bottom: 0.1rem
+}
 
-1. Numbered
-2. List
+@media screen and (min-width: 64em) {
+    .project-name {
+        font-size: 2.8rem
+    }
+}
 
-**Bold** and _Italic_ and `Code` text
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .project-name {
+        font-size: 2.5rem
+    }
+}
 
-[Link](url) and ![Image](src)
-```
+@media screen and (max-width: 42em) {
+    .project-name {
+        font-size: 2rem
+    }
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+text {
+  color: white;
+  font-size: 18px;
+  }
+  
+.join {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #31ed70;
+  border: none;
+  color: white;
+  border-radius: 17px;
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 23px;
+  cursor: pointer;
+}
 
-### Jekyll Themes
+.join:hover {
+  background-color: #28cc5f;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/everydayfamily/everydayfamily.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+</style>
 
-### Support or Contact
+<body>
+<center><img src="logo.png" alt="Logo" /></center>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<center><button class="join" onclick="window.location.href='https://www.mb102.com/lnk.asp?o=8288&c=918277&a=377858&k=4990979B8A28EB15D7AFD2B9C99636E4&l=7000'"> Join </button>
+
+<br/>
+
+<text>Everyday Mom Club offers monthly samples from large companies, who giveaway products as advertisements. All you have to do is sign up and wait for your samples to arrive. Offer is valid in continental United States might expire once limits are reached.</text>
+
+<br/>
+
+</center>
+
+  </body>
+</html>
