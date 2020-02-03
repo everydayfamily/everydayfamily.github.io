@@ -77,3 +77,15 @@ span {
   font-size: 1.5rem;
   margin-bottom: 100px;
 }
+
+.popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7);
+}
