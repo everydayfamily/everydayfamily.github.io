@@ -1,0 +1,119 @@
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title> Baby Samples </title>
+    <link rel="shortcut icon" type="image/png" href="files/favicon.png"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  </head>
+  <style>
+    html {
+      font-family: "Roboto";
+    }
+    a {
+      font-weight: 300;
+    }
+    @media only screen and (max-height: 670px) {
+      a {
+        font-size: 5vw;
+      }
+    }
+    b {
+      font-weight: 500;
+    }
+    @media only screen and (max-height: 670px) {
+      b {
+        font-size: 5vw;
+      }
+    }
+    h1 {
+      margin-top: 20%;
+      font-weight: 500;
+    }
+    @media only screen and (max-height: 670px) {
+      h1 {
+        margin-top: 5%;
+        font-weight: 500;
+        font-size: 8vw;
+      }
+    }
+    .btn-hover {
+      width: 200px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+      margin: 10px;
+      height: 55px;
+      text-align:center;
+      border: none;
+      background-size: 300% 100%;
+      border-radius: 50px;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+    }
+    .btn-hover:hover {
+      background-position: 100% 0;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+    }
+    .btn-hover:focus {
+      outline: none;
+    }
+    .btn-hover.color-1 {
+      background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+      box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    }
+    .btn-hover.color-2 {
+      background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+      box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+    }
+    .popup {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 30px;
+      background-color: white;
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7);
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7);
+    }
+    @media only screen and (max-height: 670px) {
+        .popup {
+          padding: 10px;
+        }
+      }
+    .gif {
+      margin-bottom: 5%;
+      border-radius: 50px;
+      width: 70vw;
+      height: 70vw;
+    }
+    .center_box {
+      text-align: center;
+      align-items: center;
+      margin: auto;
+    }
+  </style>
+  <body>
+    <div class="center_box">
+    <h1>Are you a new parent?</h1>
+    <img class="gif" src="https://media1.giphy.com/media/3HEMS9JYOp3XOaNb4Z/giphy.gif?cid=ecf05e4735ea5c12e74f2519e37a99350837054da4067881&rid=giphy.gif">
+    <button class="btn-hover color-1" onclick="location.href='second.html'">Yes</button>
+    <button class="btn-hover color-2" onclick="location.href='second.html'">No</button>
+    </div>
+    <div class="popup animated slideInLeft delay-2s"><a>Last parent from:</a> <b id="output"></b>📍</div>
+    <script>
+    var cities = ['London', 'Brighton', 'Southampton', 'Plymouth', 'Bristol', 'Cardiff', 'Oxford', 'Cambridge', 'Liverpool', 'Manchester', 'Leeds', 'Newcastle', 'Glasgow', 'Edinburgh', 'Dundee', 'Aberdeen', 'Inverness', 'Belfast', 'Cardiff', 'Conventry'];
+    var city = cities[Math.floor(Math.random()*cities.length)];
+    document.getElementById("output").innerHTML = city.toString();
+    </script>
+  </body>
+ </html>

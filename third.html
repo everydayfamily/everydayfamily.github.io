@@ -1,0 +1,96 @@
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title> Baby Samples </title>
+    <link rel="shortcut icon" type="image/png" href="files/favicon.png"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,900&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    html {
+      font-family: "Roboto";
+    }
+    a {
+      font-weight: 300;
+    }
+    @media only screen and (max-height: 670px) {
+      a {
+        font-size: 5vw;
+      }
+    }
+    b {
+      font-weight: 500;
+    }
+    @media only screen and (max-height: 670px) {
+      b {
+        font-size: 5vw;
+      }
+    }
+    h1 {
+      margin-top: 20%;
+      font-weight: 500;
+    }
+    @media only screen and (max-height: 670px) {
+      h1 {
+        margin-top: 5%;
+        font-weight: 500;
+        font-size: 8vw;
+      }
+    }
+    .btn-hover {
+      width: 200px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+      margin: 10px;
+      height: 55px;
+      text-align:center;
+      border: none;
+      background-size: 300% 100%;
+      border-radius: 50px;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+    }
+    .btn-hover:hover {
+      background-position: 100% 0;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+    }
+    .btn-hover:focus {
+      outline: none;
+    }
+    .btn-hover.color-1 {
+      background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+      box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    }
+    .btn-hover.color-2 {
+      background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+      box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+    }
+    .gif {
+      margin-bottom: 5%;
+      border-radius: 50px;
+      width: 70vw;
+      height: 70vw;
+    }
+    .center_box {
+      text-align: center;
+      align-items: center;
+      margin: auto;
+    }
+  </style>
+  <body>
+    <div class="center_box">
+    <h1>Do you like coupons?</h1>
+    <img class="gif" src="https://media1.giphy.com/media/DK7a1tzOiQO2Y/giphy.gif?cid=ecf05e470779ef47475c8c293fe858f0eee1ad737d8809cf&rid=giphy.gif">
+    <button class="btn-hover color-1" onclick="location.href='end.html'">Yes</button>
+    <button class="btn-hover color-2" onclick="location.href='end.html'">No</button>
+    </div>
+  </body>
+ </html>
