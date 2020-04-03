@@ -15,43 +15,11 @@
     <div class="image animated fadeInLeft slow"><img class="icon" src="Pictures/baby.png" width="45rem" height="45rem"></div><span><a>Parenting Tips</a><br><b>Share and discuss your parenting traits with other mums.</b></span><br><br>
     <div class="image animated fadeInLeft slower"><img class="icon" src="Pictures/box.png" width="45rem" height="45rem"></div><span><a>Monthly Samples</a><br><b>Get boxes full of baby product samples at the end of every month.</b></span><br><br>
     <br><div class="animated fadeInUp" style="text-align:center;"><a href="https://www.mb102.com/lnk.asp?o=15455&c=918277&a=377858&k=A56E1772C0962AB5DDD63D000B293F07&l=16326" class="button">Join</a></div>
-    <div class="popup animated slideInLeft delay-2s"><a>Last user from:</a> <span id="city"></span>📍</div>
-    <div class="get_location">
-    <div>Country: <span id="country"></span></div>
-    <div>State: <span id="state"></span></div>
-    <div>City: <span id="city"></span></div>
-    <div>Postal: <span id="postal"></span></div>
-    <div>Latitude: <span id="latitude"></span></div>
-    <div>Longitude: <span id="longitude"></span></div>
-    <div>IP address: <span id="ipv4"></span></div>
-    </div>
-</body>
-<script>
-
-    var country = document.getElementById('country');
-    var state = document.getElementById('state');
-    var city = document.getElementById('city');
-    var postal = document.getElementById('postal');
-    var latitude = document.getElementById('latitude');
-    var longitude = document.getElementById('longitude');
-    var ip = document.getElementById('ipv4');
-
-    function callback(data)
-    {
-        country.innerHTML = data.country_name;
-        state.innerHTML = data.state;
-        city.innerHTML = data.city;
-        postal.innerHTML = data.postal;
-        latitude.innerHTML = data.latitude;
-        longitude.innerHTML = data.longitude;
-        ip.innerHTML = data.IPv4;
-    }
-
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://geoip-db.com/json/geoip.php?jsonp=callback';
-    var h = document.getElementsByTagName('script')[0];
-    h.parentNode.insertBefore(script, h);
-
-</script>
-</html>
+    <div class="popup animated slideInLeft delay-2s"><a>Last mom from:</a> <b id="output"></b>📍</div>
+    <script>
+    var cities = ['London', 'Brighton', 'Southampton', 'Plymouth', 'Bristol', 'Cardiff', 'Oxford', 'Cambridge', 'Liverpool', 'Manchester', 'Leeds', 'Newcastle', 'Glasgow', 'Edinburgh', 'Dundee', 'Aberdeen', 'Inverness', 'Belfast', 'Cardiff', 'Conventry'];
+    var city = cities[Math.floor(Math.random()*cities.length)];
+    document.getElementById("output").innerHTML = city.toString();
+    </script>
+  </body>
+ </html>
